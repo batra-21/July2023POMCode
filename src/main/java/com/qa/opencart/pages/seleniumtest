@@ -1,0 +1,11 @@
+package com.qa.opencart.pages;
+
+public class seleniumtestpage {
+	
+	public void seleniumpage()
+	{
+		System.out.println("selenium test page");
+	}
+	
+
+}
