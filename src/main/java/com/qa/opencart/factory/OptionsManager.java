@@ -21,6 +21,7 @@ public class OptionsManager {
 	public ChromeOptions getChromeOptions()
 	{
 		co = new ChromeOptions();
+		co.addArguments("--remote-allow-origins=*");
 		
 		// property have value true but it will return string from properties.parse.boolean will remove double quotes of string..as we have only 
 		//one statement so can write without curly brackets
